@@ -1,0 +1,57 @@
+ASSIGNMENT PART 1
+1.What are undeclared and undefined variables in JavaScript?
+Undefined: It occurs when a variable has been declared but has not been assigned with any value. Undefined is not a keyword. 
+Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using var or const keyword.
+2.What is variable type in javascript? 
+Variables and Types. Like almost every dynamic language, JavaScript is a “duck-typed” language, and therefore every variable is defined using the var keyword, and can contain all types of variables. 
+In JavaScript, the Number type can be both a floating point number and an integer.
+3.Explain the difference between "==" and "==="?
+Double equals (==) is a comparison operator, which transforms the operands having the same type before comparison. So, when you compare string with a number, JavaScript converts any string to a number. 
+An empty string is always converts to zero. A string with no numeric value is converts to NaN (Not a Number), which returns false.
+=== (Triple equals) is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. This operator performs type casting for equality. If we compare 2 with “2” using ===, then it will return a false value.
+A variable declared without a value will have the value undefined.
+4.What is undefined value in javascript?
+The variable carName will have the value undefined after the execution of this statement:
+Example
+var carName;
+5.How are JavaScript and ECMA Script related?
+Javascript was originally created at Netscape Communications Corporation , and they wanted to standardize the language. So, they submitted the language to the ECMA for standardization. Because of trademark issues with the name Javascript, and the standard became called ECMAScript .
+The core functionality of Javascript are based on the ECMAScript specifications, but Javascript also has other additional features that are not in the ECMA standard . There are languages other than JavaScript (ActionScript by Adobe Flash and JScript by Microsoft) that also implement the ECMAScript Standard as their core.
+6.List some features of JavaScript.
+JavaScript is a object-based scripting language
+Giving the user more control over the browser.
+It Handling dates and time.
+It Detecting the user's browser and OS,
+It is light weighted.
+JavaScript is a scripting language and it is not java.
+JavaScript is interpreter based scripting language.
+JavaScript is case sensitive.
+JavaScript is object based language as it provides predefined objects.
+Every statement in javascript must be terminated with semicolon (;).
+7.List some of the advantages of JavaScript.
+Speed. Client-side JavaScript is very fast because it can be run immediately within the client-side browser. Unless outside resources are required, JavaScript is unhindered by network calls to a backend server.
+Simplicity. JavaScript is relatively simple to learn and implement.
+Popularity. JavaScript is used everywhere on the web.
+Interoperability. JavaScript plays nicely with other languages and can be used in a huge variety of applications.
+Server Load. Being client-side reduces the demand on the website server.
+Gives the ability to create rich interfaces.
+8.Is JavaScript case sensitive language?
+JavaScript is a case-sensitive language. This means that the language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters.
+So the identifiers Time and TIME will convey different meanings in JavaScript.
+9.Difference between Client side JavaScript and Server side JavaScript
+Client-Side JavaScript (CSJS)
+- It is JavaScript that enables the web pages on browsers to run active online content.
+Server-Side JavaScript (SSJS)
+- It is JavaScript that enables back-end access to databases, file systems, and servers.
+10.. Are Java and JavaScript same? If yes why, if no why
+javascript and java are not the same because;
+javascript:javavascript is a lightweight programming language ('scripting language')and use to make web pages interactive. it can insert dynamic text  into HTML and javascript is also known as browers language
+Java:is an objected-oriented programming language and have virtual machine platform that allows you to create compiled programs that run on every platform
+11.How to detect the operating system on the client machine in JavaScript?
+The navigator.appVersion string should be used to find the name of the operating system on the client machine. 
+The following code snippet returns the appropriate Operating systems. 
+var OSName="Unknown OS";
+if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux"; 
